@@ -1,0 +1,20 @@
+.profile-content{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .profile__names{
+        text-align: center;
+    }
+
+    .profile__logout{
+        width: 100%;
+        margin-top: 0.5em;
+        padding: 1em;
+        border-radius: 0.5em;
+        background-color: var(--color-main);
+        color: var(--color-white);
+        letter-spacing: 0.02em;
+    }
+}

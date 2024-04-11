@@ -1,0 +1,47 @@
+.price-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .price__title{
+        color: rgb(129, 4, 247);
+    }
+
+    form{
+        width: 100%;
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       padding: 1em;
+        gap: 1em;
+       flex-wrap: wrap;
+    
+       .content-spn{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+       }
+
+        .price__input{
+           border-radius: 0.5em;
+           border: 0;
+           box-shadow: 1px 1px 3px 2px var(--box-shadow);
+           padding: 0.2em;
+           font-weight: bold;
+        }
+
+        .btn-appl{
+            border-radius: 0.5em;
+            font-weight: 800;
+            background-color: var(--color-main);
+            color: var(--color-white);
+                        &:hover{
+                filter: brightness(1.4);
+                
+            }
+        }
+
+    }
+
+
+
+}

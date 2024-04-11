@@ -1,0 +1,79 @@
+.content-hotel-search{
+    display: flex;
+    flex-direction: column;
+
+
+
+    .slider{
+        display: flex;
+        margin-inline: 2em;
+        gap: 1em;
+        height: 20em;
+
+
+    }
+
+    .section-hotel-detail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h3{
+            margin-top:1em;
+        }
+
+        .hotel-description{
+            line-height: 1.5em;
+            margin-inline: 2em;
+            margin-top: 2em;
+        }
+    }
+    
+
+    .section-title-search{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2em;
+        
+
+        .hotel-search__title{
+            color: var(--color-main-op);
+        }
+
+    }
+
+    .goto-login{
+        
+        margin-left: 2em;
+        
+        .link-style{
+            color: var(--color-main);
+            font-weight: bold;
+            letter-spacing: 0.05em;
+            text-decoration: none;
+
+            &:hover {
+                color: var(--color-white);
+                background-color: var(--color-main-op);
+                padding: 0.3em;
+                border-radius: 0.3em;
+                filter: brightness(1.2);
+            }
+        }
+    }
+}
+
+/* Rating */
+
+.star-filled {
+    color: var(--color-gold);
+}
+.star-half {
+    color: var(--color-gold);
+}
+.star-empty {
+    color: --color-grey2;
+}

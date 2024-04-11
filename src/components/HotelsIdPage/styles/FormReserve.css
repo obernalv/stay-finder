@@ -1,0 +1,45 @@
+.section-booking{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    padding: 2em;
+    flex-wrap: wrap;
+    
+    form{
+        display: flex;
+        gap: 1em;
+        box-shadow: 1px 1px 3px 1px var(--box-shadow);
+        padding: 2em;
+        border-radius: 1em;
+
+        .separador{
+            /* transform: rotate(15deg); */
+            border-color: var(--box-shadow);
+        }
+
+        label{
+            font-weight: bold;
+            color: var(--color-main);
+        }
+
+        input, button{
+            border-radius: 0.5em;
+            border: 0;
+            padding: 0.5em;
+            box-shadow: 1px 1px 3px 1px var(--box-shadow);
+            
+        }
+
+        button{
+            background-color: var(--color-main);
+            color: var(--color-white);
+            &:hover{
+                filter: brightness(1.4);
+                
+            }
+        }
+
+    }
+}

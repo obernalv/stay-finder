@@ -1,0 +1,84 @@
+
+:root{
+    scroll-behavior: smooth;
+    --color-main: hsl(271 99% 37%);
+    --color-main-op: hsl(271 97% 49%);
+    --color-second:hsl(300 3% 94%);
+
+    
+    --color-white: hsl(0 0% 100%);
+    --color-gris: hsl(20 4% 85%);
+    --color-grey2:hsl(0 0% 80%);
+    --color-gold: hsl(51 100% 50%);
+    --color-orange:hsl(39, 94%, 51%);
+
+    --box-shadow: rgba(54 5 231 / 0.2);
+
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{   
+    background-color: transparent;
+}
+
+body{
+
+    margin: 0;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1em;
+    overflow-y: scroll;
+}
+
+h1,
+h2,
+h3,
+p,
+hr
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+ul{
+    list-style: none;
+    margin-left: 0;
+}
+
+input, button, select{
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+input, select{
+    outline: none;
+}
+
+button{
+    border: none;
+}
+
+image{
+    display: block;
+    width: 100%;
+}
+
+
+/* diseño de Scroll*/
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--bg-color-transparent);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-main);
+    border-radius: 5px;
+}

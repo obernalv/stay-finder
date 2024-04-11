@@ -1,0 +1,60 @@
+.content-register{
+
+    display: flex;
+    justify-content: center;
+    
+
+    form{
+        width: 400px;
+        max-width: 400px;
+        background: linear-gradient(var(--color-main), var(--color-gris));
+        display: flex;
+        flex-direction: column;
+        gap: 3em;
+        padding: 2em;
+        border-radius: 1em; 
+
+        .title-register{
+            text-align: center;
+            color: var(--color-white);
+            letter-spacing: 0.2em;
+        }
+
+        .inputs-section{
+            display: flex;
+            flex-direction: column;
+
+
+            label{
+                
+                display: flex;
+                flex-direction: column;
+                span{
+                    color: var(--color-white);
+                    font-weight: bold;
+                    
+                }
+            }
+
+            input, select{
+                padding: 0.5em;
+                border-radius: 0.5em;
+                border: 0;
+            }
+            
+            .span-error{
+                color: red;
+                font-size: 0.8em;
+            }
+        }
+
+        .register-boton{
+            padding: 1em;
+            border-radius: 0.5em;
+            font-weight: bold;
+            background-color: var(--color-main);
+            color: var(--color-white);
+            letter-spacing: 0.2em;
+        }
+    }
+}

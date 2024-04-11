@@ -1,0 +1,19 @@
+.section-hotels-other{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+
+    .hotels-other-title{
+        color: rgb(129, 4, 248);
+    }
+
+    .card-hotel-other{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+}

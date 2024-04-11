@@ -1,0 +1,33 @@
+
+
+.filter-section{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .title-category-filter{
+        color: var(--color-main-op);
+    }
+
+    ul{
+        display: flex;
+        
+        gap: 0.5em;
+        padding-left:0;
+        padding: 0.5em;
+        overflow: auto;
+
+    }
+
+
+}
+
+@media (max-width: 400px) {
+    .list-cities{
+        font-size: 0.5em;
+    }
+
+}
